@@ -10,7 +10,9 @@ const routes = [
     name: "Home",
     component: () => import("@/views/Home.vue"),
     meta: {
-      title: "首页"
+      title: "首页",
+      auth: true,
+      keepAlive: false
     }
   }
 ];
